@@ -1,0 +1,1825 @@
+{
+  "Version": 1,
+  "Hash": "xstaH10QK0VcJohD9Q45WK5X8deSsrxSR+DPHhABLuk=",
+  "Source": "SagaPattern.Web",
+  "BasePath": "_content/SagaPattern.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SagaPattern.Web\\wwwroot",
+      "Source": "SagaPattern.Web",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\4l1kkjn8td-5ajdbf8y7b.gz",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "app#[.{fingerprint=5ajdbf8y7b}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nn9gtkl84q",
+      "Integrity": "4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\dcyb2irrdr-j4j38dlq7h.gz",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "SagaPattern.Web#[.{fingerprint=j4j38dlq7h}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "k2ujk3cfpz",
+      "Integrity": "/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\me66baei1s-6gzpyzhau4.gz",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "joqzyw7ssu",
+      "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\q3ka769xou-8inm30yfxf.gz",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fbl5ivwo6k",
+      "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\qmstvoo36t-j4j38dlq7h.gz",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "SagaPattern.Web#[.{fingerprint=j4j38dlq7h}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "k2ujk3cfpz",
+      "Integrity": "/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "SagaPattern.Web#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "j4j38dlq7h",
+      "Integrity": "k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "SagaPattern.Web#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "j4j38dlq7h",
+      "Integrity": "k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\app.css",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ajdbf8y7b",
+      "Integrity": "I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\favicon.png",
+      "SourceId": "SagaPattern.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\",
+      "BasePath": "_content/SagaPattern.Web",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.5ajdbf8y7b.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\4l1kkjn8td-5ajdbf8y7b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821018062"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ajdbf8y7b"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw="
+        }
+      ]
+    },
+    {
+      "Route": "app.5ajdbf8y7b.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ajdbf8y7b"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw="
+        }
+      ]
+    },
+    {
+      "Route": "app.5ajdbf8y7b.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\4l1kkjn8td-5ajdbf8y7b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ajdbf8y7b"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\4l1kkjn8td-5ajdbf8y7b.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000821018062"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I9bcsUILZO+bRBBfaOFF6EiusJL0vXx9CuQOJgZ+OZw="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\4l1kkjn8td-5ajdbf8y7b.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1217"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4/FRcMEZX8E1z5qzlXj2PQQ+AVNQzXXk5JZaLWyPzsc="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\me66baei1s-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\me66baei1s-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\me66baei1s-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\q3ka769xou-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\q3ka769xou-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\me66baei1s-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\q3ka769xou-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\q3ka769xou-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 20:48:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.bundle.scp.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\qmstvoo36t-j4j38dlq7h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.bundle.scp.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\qmstvoo36t-j4j38dlq7h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.bundle.scp.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\qmstvoo36t-j4j38dlq7h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.bundle.scp.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SagaPattern.Web.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\qmstvoo36t-j4j38dlq7h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.styles.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\dcyb2irrdr-j4j38dlq7h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.styles.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.j4j38dlq7h.styles.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\dcyb2irrdr-j4j38dlq7h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j4j38dlq7h"
+        },
+        {
+          "Name": "label",
+          "Value": "SagaPattern.Web.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.styles.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\dcyb2irrdr-j4j38dlq7h.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000579374276"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.styles.css",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\scopedcss\\bundle\\SagaPattern.Web.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k6/z49SeNpgWR91G8oYAcl2EXeHyd3RVJuQwAiv5AiE="
+        }
+      ]
+    },
+    {
+      "Route": "SagaPattern.Web.styles.css.gz",
+      "AssetFile": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.Web\\obj\\Debug\\net9.0\\compressed\\dcyb2irrdr-j4j38dlq7h.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 22:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/B4uX0hD1Iljle9yW3qqVcyHZ0OAiqosHpgp8LaWBSk="
+        }
+      ]
+    }
+  ]
+}

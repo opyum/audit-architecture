@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>84dee5ac-7a8a-4beb-9d57-e81b352dc363</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SagaPattern.ApiService\SagaPattern.ApiService.csproj" />
+    <ProjectReference Include="..\SagaPattern.InventoryService\SagaPattern.InventoryService.csproj" />
+    <ProjectReference Include="..\SagaPattern.OrderService\SagaPattern.OrderService.csproj" />
+    <ProjectReference Include="..\SagaPattern.PaymentService\SagaPattern.PaymentService.csproj" />
+    <ProjectReference Include="..\SagaPattern.Web\SagaPattern.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0-preview.3.24210.17" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>

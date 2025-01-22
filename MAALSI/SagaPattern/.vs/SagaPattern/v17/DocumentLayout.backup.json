@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|solutionrelative:sagapattern.inventoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.inventoryservice\\sagapattern.inventoryservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|solutionrelative:sagapattern.inventoryservice\\sagapattern.inventoryservice.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB4D858F-7155-48B7-9B65-A48E75D4F9AF}|SagaPattern.PaymentService\\SagaPattern.PaymentService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB4D858F-7155-48B7-9B65-A48E75D4F9AF}|SagaPattern.PaymentService\\SagaPattern.PaymentService.csproj|solutionrelative:sagapattern.paymentservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|solutionrelative:sagapattern.orderservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E2B85B-0EC5-4466-AC3A-58B42FBB8768}|SagaPattern.AppHost\\SagaPattern.AppHost.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E2B85B-0EC5-4466-AC3A-58B42FBB8768}|SagaPattern.AppHost\\SagaPattern.AppHost.csproj|solutionrelative:sagapattern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.inventoryservice\\sagapattern.inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3060901D-ACA0-4509-8765-B9A5ED4CBC24}|SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj|solutionrelative:sagapattern.inventoryservice\\sagapattern.inventoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.orderservice\\sagapattern.orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|solutionrelative:sagapattern.orderservice\\sagapattern.orderservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2F7CFA4-1F4F-4336-AD9B-829E761F1CEF}|SagaPattern.ApiService\\SagaPattern.ApiService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.apiservice\\sagapattern.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2F7CFA4-1F4F-4336-AD9B-829E761F1CEF}|SagaPattern.ApiService\\SagaPattern.ApiService.csproj|solutionrelative:sagapattern.apiservice\\sagapattern.apiservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E2B85B-0EC5-4466-AC3A-58B42FBB8768}|SagaPattern.AppHost\\SagaPattern.AppHost.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.apphost\\sagapattern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4E2B85B-0EC5-4466-AC3A-58B42FBB8768}|SagaPattern.AppHost\\SagaPattern.AppHost.csproj|solutionrelative:sagapattern.apphost\\sagapattern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.orderservice\\services\\paymentprocessedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|solutionrelative:sagapattern.orderservice\\services\\paymentprocessedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|c:\\users\\flori\\onedrive\\documents\\2-travail\\cesi\\j3\\diagramme\\maalsi\\sagapattern\\sagapattern.orderservice\\services\\inventoryupdatedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B782D192-7C95-4F46-B114-DEA6522EB7AD}|SagaPattern.OrderService\\SagaPattern.OrderService.csproj|solutionrelative:sagapattern.orderservice\\services\\inventoryupdatedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{401e94d6-209b-3e00-a3cc-775a911ffd82}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7d1a5679-04f2-3f4a-851f-855baa54731c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\Program.cs",
+              "RelativeDocumentMoniker": "SagaPattern.InventoryService\\Program.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\Program.cs",
+              "RelativeToolTip": "SagaPattern.InventoryService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:18:45.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SagaPattern.InventoryService.http",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\SagaPattern.InventoryService.http",
+              "RelativeDocumentMoniker": "SagaPattern.InventoryService\\SagaPattern.InventoryService.http",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\SagaPattern.InventoryService.http",
+              "RelativeToolTip": "SagaPattern.InventoryService\\SagaPattern.InventoryService.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-20T14:18:44.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.PaymentService\\Program.cs",
+              "RelativeDocumentMoniker": "SagaPattern.PaymentService\\Program.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.PaymentService\\Program.cs",
+              "RelativeToolTip": "SagaPattern.PaymentService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:18:35.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Program.cs",
+              "RelativeDocumentMoniker": "SagaPattern.OrderService\\Program.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Program.cs",
+              "RelativeToolTip": "SagaPattern.OrderService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T14:17:09.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SagaPattern.OrderService",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\SagaPattern.OrderService.csproj",
+              "RelativeDocumentMoniker": "SagaPattern.OrderService\\SagaPattern.OrderService.csproj",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\SagaPattern.OrderService.csproj*",
+              "RelativeToolTip": "SagaPattern.OrderService\\SagaPattern.OrderService.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T14:15:29.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SagaPattern.InventoryService",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj",
+              "RelativeDocumentMoniker": "SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj*",
+              "RelativeToolTip": "SagaPattern.InventoryService\\SagaPattern.InventoryService.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T14:15:25.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SagaPattern.ApiService",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.ApiService\\SagaPattern.ApiService.csproj",
+              "RelativeDocumentMoniker": "SagaPattern.ApiService\\SagaPattern.ApiService.csproj",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.ApiService\\SagaPattern.ApiService.csproj",
+              "RelativeToolTip": "SagaPattern.ApiService\\SagaPattern.ApiService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T14:15:22.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SagaPattern.AppHost",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.AppHost\\SagaPattern.AppHost.csproj",
+              "RelativeDocumentMoniker": "SagaPattern.AppHost\\SagaPattern.AppHost.csproj",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.AppHost\\SagaPattern.AppHost.csproj",
+              "RelativeToolTip": "SagaPattern.AppHost\\SagaPattern.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-20T14:15:17.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentProcessedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Services\\PaymentProcessedEventConsumer.cs",
+              "RelativeDocumentMoniker": "SagaPattern.OrderService\\Services\\PaymentProcessedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Services\\PaymentProcessedEventConsumer.cs",
+              "RelativeToolTip": "SagaPattern.OrderService\\Services\\PaymentProcessedEventConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:01:16.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryUpdatedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Services\\InventoryUpdatedEventConsumer.cs",
+              "RelativeDocumentMoniker": "SagaPattern.OrderService\\Services\\InventoryUpdatedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.OrderService\\Services\\InventoryUpdatedEventConsumer.cs",
+              "RelativeToolTip": "SagaPattern.OrderService\\Services\\InventoryUpdatedEventConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T15:00:31.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "SagaPattern.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\flori\\OneDrive\\Documents\\2-Travail\\CESI\\J3\\Diagramme\\MAALSI\\SagaPattern\\SagaPattern.AppHost\\Program.cs",
+              "RelativeToolTip": "SagaPattern.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T22:18:54.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

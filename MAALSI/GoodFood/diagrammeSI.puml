@@ -1,0 +1,64 @@
+@startuml
+!define RECTANGLE class
+
+
+' Packages
+package "Good Food Siège" {
+    RECTANGLE "Service Informatique" as SI
+    RECTANGLE "Service Comptabilité" as COMPTA
+    RECTANGLE "Service Communication" as COM
+    RECTANGLE "Serveur SAGE\nsur site" as SAGE <<current>>
+}
+
+package "Prestataires externes" {
+    RECTANGLE "PWI\nHébergeur" as PWI <<external>>
+    RECTANGLE "WIM\nDéveloppeur" as WIM <<external>>
+    RECTANGLE "TP System\nGestion TPE" as TPS <<external>>
+    RECTANGLE "BNB\nBanque" as BNB <<external>>
+    RECTANGLE "DYW\nDesign graphique" as DYW <<external>>
+}
+
+package "Applications & Services" {
+    RECTANGLE "Application commande\nWindows Server 2008 R2" as APP <<legacy>>
+    RECTANGLE "Microsoft Dynamics 365\nERP" as ERP <<current>>
+    RECTANGLE "Microsoft 365" as M365 <<current>>
+    RECTANGLE "App Synchronisation\nWCF" as SYNC <<current>>
+    RECTANGLE "Site vitrine\nPHP/MySQL" as SITE <<legacy>>
+}
+
+package "Franchises" {
+    RECTANGLE "Restaurants\nTPE" as REST
+    RECTANGLE "Groupements\nFranchisés" as GRPFR
+}
+
+' Relations avec PWI
+PWI -down-> APP : héberge
+PWI -down-> SITE : héberge
+PWI -down-> SAGE : maintenance
+
+' Relations avec WIM
+WIM -down-> APP : développe
+WIM -down-> SYNC : héberge
+
+' Relations avec TP System
+TPS -down-> REST : gère
+TPS -right-> BNB : intègre
+
+' Relations bancaires
+BNB -down-> SAGE : EBICS
+BNB -down-> APP : paiements en ligne
+
+' Relations ERP
+ERP <-down- APP : synchronisation quotidienne
+SYNC -down-> ERP : synchronise
+
+' Relations services internes
+COMPTA -down-> SAGE : utilise
+COM -down-> ERP : gestion réclamations
+SI -down-> APP : support N1
+
+' Relations franchises
+REST -up-> TPS : utilise
+GRPFR -up-> ERP : systèmes propres
+
+@enduml

@@ -1,0 +1,37 @@
+@startuml
+node "Client Device" {
+  [Web Browser]
+  [Mobile App]
+}
+
+node "Load Balancer" as LB {
+}
+
+node "Application Server -> SRV-Prod01" as AppServer {
+  [API Gateway]
+  [CatalogueService]
+  [OrderService]
+  [PaymentService]
+  [NotificationService]
+}
+
+node "Database Server" as DBServer {
+  database "Catalogue DB"
+  database "Order DB"
+}
+
+node "Messaging Server" as MessagingServer {
+  [Messaging Queue]
+}
+
+cloud "Payment Gateway Service" as PaymentGateway
+
+[Web Browser] --> LB
+[Mobile App] --> LB
+LB --> AppServer
+
+AppServer --> DBServer : Connexion à la base de données
+AppServer --> MessagingServer : Publier des messages
+AppServer --> PaymentGateway : Traitement des paiements
+MessagingServer --> AppServer : Notifications envoyées
+@enduml

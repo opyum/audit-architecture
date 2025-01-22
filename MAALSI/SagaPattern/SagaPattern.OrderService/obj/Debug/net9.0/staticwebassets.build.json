@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "43ezUioAGaHdUT9RSqZOgdewuTYs0C6K1xc1VX22IiE=",
+  "Source": "SagaPattern.OrderService",
+  "BasePath": "_content/SagaPattern.OrderService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

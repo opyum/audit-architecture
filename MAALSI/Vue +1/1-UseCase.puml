@@ -1,0 +1,57 @@
+@startuml
+left to right direction
+actor Client as c
+actor Admin as a
+actor PaymentGateway as pg
+
+package "E-Commerce Application" {
+  usecase "S'inscrire" as UC_Register
+  usecase "Se connecter" as UC_Login
+  usecase "Mettre à jour le profil" as UC_UpdateProfile
+  usecase "Parcourir le catalogue" as UC_BrowseProducts
+  usecase "Ajouter au panier" as UC_AddToCart
+  usecase "Passer une commande" as UC_PlaceOrder
+  usecase "Payer une commande" as UC_MakePayment
+  usecase "Recevoir des notifications" as UC_ReceiveNotifications
+  usecase "Consulter l'historique des commandes" as UC_ViewOrderHistory
+
+  usecase "Gérer les produits" as UC_ManageProducts
+  usecase "Consulter les rapports" as UC_ViewReports
+  usecase "Configurer les notifications" as UC_ConfigureNotifications
+
+  c --> UC_Register
+  c --> UC_Login
+  c --> UC_UpdateProfile
+  c --> UC_BrowseProducts
+  c --> UC_AddToCart
+  c --> UC_PlaceOrder
+  c --> UC_ViewOrderHistory
+  c --> UC_ReceiveNotifications
+  c --> UC_MakePayment
+
+  a --> UC_ManageProducts
+  a --> UC_ViewReports
+  a --> UC_ConfigureNotifications
+
+  UC_MakePayment --> pg : "Valider le paiement"
+}
+@enduml
+
+1. Les Acteurs
+Client : Un utilisateur standard qui interagit avec l'application pour effectuer des actions comme s'inscrire, commander, payer, etc.
+Admin : Un administrateur de l'application qui gère les produits, consulte les rapports, et configure les notifications.
+PaymentGateway : Un service externe utilisé pour valider les paiements.
+2. Cas d'utilisation principaux
+Pour le Client :
+S'inscrire / Se connecter / Mettre à jour le profil : Actions nécessaires pour accéder et maintenir un compte utilisateur.
+Parcourir le catalogue : Consulter la liste des produits disponibles.
+Ajouter au panier et Passer une commande : Gérer les articles et finaliser un achat.
+Payer une commande : Gérer les paiements via le service de paiement externe.
+Consulter l'historique des commandes et Recevoir des notifications : Suivi des commandes et alertes personnalisées.
+Pour l'Admin :
+Gérer les produits : Ajouter, mettre à jour ou supprimer des produits dans le catalogue.
+Consulter les rapports : Obtenir des statistiques sur les ventes ou les commandes.
+Configurer les notifications : Définir les règles et formats des messages pour les clients.
+3. Relations
+Les lignes montrent les interactions directes entre les acteurs et les cas d'utilisation.
+La relation entre "Payer une commande" et le PaymentGateway illustre l'utilisation d'un service externe pour traiter les paiements.

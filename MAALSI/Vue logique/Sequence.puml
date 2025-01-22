@@ -1,0 +1,55 @@
+@startuml
+actor Client as c
+participant "CatalogueService" as cs
+participant "OrderService" as os
+participant "PaymentService" as ps
+participant "NotificationService" as ns
+
+c -> cs : Parcourir le catalogue
+c -> cs : Ajouter un produit au panier
+cs --> c : Confirmation d'ajout
+
+c -> os : Passer une commande
+os -> cs : Vérifier la disponibilité des produits
+cs --> os : Disponibilité confirmée
+
+os -> ps : Initier le paiement
+ps --> os : Paiement validé
+
+os -> ns : Envoyer notification "Commande confirmée"
+ns --> c : Notification reçue
+
+os -> ns : Envoyer notification "Commande en préparation"
+ns --> c : Notification reçue
+
+c --> os : Consulter le statut de la commande
+os --> c : Statut : "En préparation"
+@enduml
+
+Explications
+1. Acteurs et Participants
+Client : L'utilisateur de l'application effectuant des actions comme parcourir le catalogue, ajouter des produits, et passer une commande.
+CatalogueService : Service responsable de la gestion des produits (consultation et vérification de la disponibilité).
+OrderService : Service gérant les commandes, incluant la création et le suivi.
+PaymentService : Service externe ou interne gérant les paiements.
+NotificationService : Service chargé d'envoyer des notifications au client.
+2. Scénario représenté
+Parcourir et sélectionner des produits :
+
+Le client interagit avec le CatalogueService pour parcourir le catalogue et ajouter des produits au panier.
+Le système confirme chaque produit ajouté.
+Passer une commande :
+
+Le client initie la commande auprès du OrderService.
+Le OrderService vérifie la disponibilité des produits en interrogeant le CatalogueService.
+Paiement :
+
+Le OrderService demande au PaymentService de traiter le paiement.
+Une fois le paiement validé, le PaymentService informe le OrderService.
+Envoi de notifications :
+
+Le OrderService informe le NotificationService pour notifier le client que la commande est confirmée et en préparation.
+Le client reçoit ces notifications.
+Consultation du statut :
+
+Le client consulte le statut de sa commande via le OrderService, qui retourne le statut actuel ("En préparation").

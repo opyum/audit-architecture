@@ -1,0 +1,63 @@
+@startuml
+object Client {
+  ClientId = 1
+  Name = "Jean Dupont"
+  Email = "jean.dupont@example.com"
+}
+
+object Product1 {
+  ProductId = 101
+  Name = "Ordinateur Portable"
+  Price = 1200.00
+  Stock = 10
+}
+
+object Product2 {
+  ProductId = 102
+  Name = "Souris Sans Fil"
+  Price = 25.00
+  Stock = 50
+}
+
+object Order {
+  OrderId = 5001
+  OrderDate = "2025-01-13"
+  Status = "EnTraitement"
+}
+
+object Payment {
+  PaymentId = 9001
+  Amount = 1225.00
+  PaymentStatus = "Validé"
+}
+
+object Notification1 {
+  NotificationId = 3001
+  Message = "Commande confirmée et en cours de préparation."
+}
+
+object Notification2 {
+  NotificationId = 3002
+  Message = "Votre commande a été expédiée."
+}
+
+' Relations entre les objets
+Client -- Order : passe
+Order -- Product1 : contient
+Order -- Product2 : contient
+Order -- Payment : lié à
+Client -- Notification1 : reçoit
+Client -- Notification2 : reçoit
+@enduml
+
+1. Objets représentés
+Client : Instance représentant un utilisateur, avec des attributs concrets comme ClientId, Name, et Email.
+Product1 et Product2 : Deux produits distincts du catalogue, avec des informations comme ProductId, Name, Price, et Stock.
+Order : Une commande passée par le client, incluant un identifiant unique, une date, et un statut.
+Payment : Un paiement associé à la commande, avec le montant total et le statut du paiement.
+Notification1 et Notification2 : Notifications envoyées au client concernant l'état de la commande.
+2. Relations
+Client → Order : Le client "Jean Dupont" passe une commande (passe).
+Order → Products : La commande contient deux produits spécifiques (contient).
+Order → Payment : La commande est associée à un paiement (lié à).
+Client → Notifications : Le client reçoit des notifications liées à l'état de la commande (reçoit).

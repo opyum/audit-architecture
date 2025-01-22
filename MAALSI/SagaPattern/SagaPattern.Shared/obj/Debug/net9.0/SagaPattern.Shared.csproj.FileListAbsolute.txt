@@ -1,0 +1,11 @@
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\bin\Debug\net9.0\SagaPattern.Shared.deps.json
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\bin\Debug\net9.0\SagaPattern.Shared.dll
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\bin\Debug\net9.0\SagaPattern.Shared.pdb
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.AssemblyInfoInputs.cache
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.AssemblyInfo.cs
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.csproj.CoreCompileInputs.cache
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.dll
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\refint\SagaPattern.Shared.dll
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\SagaPattern.Shared.pdb
+C:\Users\flori\OneDrive\Documents\2-Travail\CESI\J3\Diagramme\MAALSI\SagaPattern\SagaPattern.Shared\obj\Debug\net9.0\ref\SagaPattern.Shared.dll

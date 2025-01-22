@@ -1,0 +1,100 @@
+@startuml
+!define RECTANGLE class
+
+' Styles
+skinparam rectangle {
+    BackgroundColor<<cloud>> LightBlue
+    BackgroundColor<<service>> LightGreen
+    BackgroundColor<<ui>> LightYellow
+    BackgroundColor<<db>> LightGray
+}
+
+package "Front-end" {
+    RECTANGLE "Application Mobile\nReact Native" as MOBILE <<ui>>
+    RECTANGLE "Application Web\nReact.js" as WEB <<ui>>
+    RECTANGLE "Back-office Franchisés\nReact.js" as BACKOFFICE <<ui>>
+}
+
+package "API Gateway & Sécurité" {
+    RECTANGLE "API Gateway" as GATEWAY
+    RECTANGLE "Service Auth\n Microsoft Entra" as AUTH <<service>>
+    RECTANGLE "CDN" as CDN
+}
+
+package "Microservices" {
+    RECTANGLE "Service Client" as CLIENT <<service>>
+    RECTANGLE "Service Commande" as ORDER <<service>>
+    RECTANGLE "Service Menu" as MENU <<service>>
+    RECTANGLE "Service Livraison" as DELIVERY <<service>>
+    RECTANGLE "Service Paiement" as PAYMENT <<service>>
+    RECTANGLE "Service Franchise" as FRANCHISE <<service>>
+    RECTANGLE "Service Analytics" as ANALYTICS <<service>>
+    RECTANGLE "Service Notification" as NOTIFICATION <<service>>
+}
+
+package "Persistence" {
+    RECTANGLE "Base MongoDB\nClients/Commandes" as MONGODB <<db>>
+    RECTANGLE "Cache Redis" as REDIS <<db>>
+    RECTANGLE "File d'attente\nRabbitMQ" as RABBITMQ
+}
+
+package "Services Cloud" {
+    RECTANGLE "Load Balancer" as LB <<cloud>>
+    RECTANGLE "Container Registry" as REGISTRY <<cloud>>
+    RECTANGLE "Monitoring\nPrometheus/Grafana" as MONITORING <<cloud>>
+    RECTANGLE "Logs\nELK Stack" as LOGS <<cloud>>
+}
+
+package "Intégrations" {
+    RECTANGLE "ERP Dynamics 365" as ERP
+    RECTANGLE "Système Bancaire" as BANK
+    RECTANGLE "TPE Restaurants" as TPE
+}
+
+' Relations Front-end
+MOBILE -down-> GATEWAY
+WEB -down-> GATEWAY
+BACKOFFICE -down-> GATEWAY
+GATEWAY -down-> AUTH
+
+' Relations API Gateway
+GATEWAY -down-> CLIENT
+GATEWAY -down-> ORDER
+GATEWAY -down-> MENU
+GATEWAY -down-> DELIVERY
+GATEWAY -down-> PAYMENT
+GATEWAY -down-> FRANCHISE
+GATEWAY -down-> ANALYTICS
+
+' Relations Services
+CLIENT -down-> MONGODB
+ORDER -down-> MONGODB
+MENU -down-> MONGODB
+DELIVERY -down-> MONGODB
+FRANCHISE -down-> MONGODB
+
+' Cache et Message Queue
+CLIENT -right-> REDIS
+ORDER -right-> REDIS
+MENU -right-> REDIS
+ORDER -down-> RABBITMQ
+DELIVERY -down-> RABBITMQ
+NOTIFICATION -left-> RABBITMQ
+
+' Monitoring et Logs
+MONITORING -up-> CLIENT
+MONITORING -up-> ORDER
+MONITORING -up-> MENU
+MONITORING -up-> DELIVERY
+LOGS -up-> CLIENT
+LOGS -up-> ORDER
+LOGS -up-> MENU
+LOGS -up-> DELIVERY
+
+' Intégrations
+PAYMENT -right-> BANK
+PAYMENT -right-> TPE
+FRANCHISE -right-> ERP
+ANALYTICS -right-> ERP
+
+@enduml

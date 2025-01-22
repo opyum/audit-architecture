@@ -1,0 +1,76 @@
+@startuml
+package "E-Commerce Application" {
+  
+  class Client {
+    + ClientId : int
+    + Name : string
+    + Email : string
+    + Register()
+    + UpdateProfile()
+    + Login()
+  }
+  
+  class Product {
+    + ProductId : int
+    + Name : string
+    + Price : double
+    + Stock : int
+    + AddProduct()
+    + UpdateProduct()
+    + DeleteProduct()
+  }
+  
+  class Order {
+    + OrderId : int
+    + OrderDate : Date
+    + Status : string
+    + AddOrder()
+    + UpdateOrderStatus()
+    + ViewOrderHistory()
+  }
+  
+  class Payment {
+    + PaymentId : int
+    + Amount : double
+    + PaymentStatus : string
+    + ProcessPayment()
+  }
+  
+  class Notification {
+    + NotificationId : int
+    + Message : string
+    + SendNotification()
+  }
+  
+  ' Relations between entities
+  Client "1" --> "0..*" Order : places
+  Order "1" --> "1..*" Product : contains
+  Order "1" --> "1" Payment : includes
+  Client "1" --> "0..*" Notification : receives
+  
+  ' External integration
+  class PaymentGateway {
+    + ValidatePayment()
+  }
+  Payment --> PaymentGateway : uses
+  
+}
+@enduml
+
+Explication du Diagramme
+Classes principales :
+
+Client : Gère les informations des utilisateurs.
+Product : Représente les produits dans le catalogue.
+Order : Représente les commandes passées par les clients.
+Payment : Gère les paiements associés à chaque commande.
+Notification : Permet d’envoyer des messages ou des alertes aux clients.
+Relations :
+
+Un client peut passer plusieurs commandes (Client → Order).
+Une commande peut inclure plusieurs produits (Order → Product).
+Une commande est associée à un paiement (Order → Payment).
+Un client peut recevoir plusieurs notifications (Client → Notification).
+Intégration avec un service tiers :
+
+Le système de paiement utilise un service externe représenté par PaymentGateway.

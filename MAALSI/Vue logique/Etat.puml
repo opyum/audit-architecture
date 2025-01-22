@@ -1,0 +1,36 @@
+@startuml
+state "Commande" as Order {
+  
+  [*] --> Nouvelle : Création de la commande
+  
+  Nouvelle --> EnTraitement : Paiement validé
+  EnTraitement --> Annulée : Commande annulée par le client ou administrateur
+  EnTraitement --> Expédiée : Commande préparée et envoyée
+  
+  Expédiée --> Livrée : Livraison confirmée par le client
+  Expédiée --> Retournée : Retour initié par le client
+  
+  Livrée --> [*]
+  Annulée --> [*]
+  Retournée --> [*]
+}
+@enduml
+
+Explications détaillées
+1. États principaux
+Nouvelle : La commande est créée mais non encore payée ou validée.
+EnTraitement : La commande est en cours de préparation après la validation du paiement.
+Expédiée : La commande est expédiée au client.
+Livrée : La commande a été reçue par le client.
+Annulée : La commande a été annulée par le client ou l’administrateur avant son expédition.
+Retournée : La commande a été renvoyée par le client après réception.
+2. Transitions et événements
+Création de la commande : Une nouvelle commande est ajoutée par le client.
+Paiement validé : L'utilisateur finalise le paiement, ce qui déplace l'état à "EnTraitement".
+Commande annulée : Le client ou l'administrateur peut annuler une commande avant son expédition.
+Commande préparée et envoyée : L'état passe à "Expédiée" une fois la commande prête.
+Livraison confirmée : Le client confirme qu'il a reçu la commande, marquant l'état comme "Livrée".
+Retour initié : Après la réception de la commande, le client peut demander un retour.
+3. Relations de terminaison
+Les états Annulée, Livrée, et Retournée sont des états terminaux, marquant la fin du cycle de vie de la commande.
+    

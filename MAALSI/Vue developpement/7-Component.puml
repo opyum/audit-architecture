@@ -1,0 +1,61 @@
+@startuml
+package "E-Commerce Application" {
+
+  component "WebApp" as WebApp
+  component "MobileApp" as MobileApp
+  component "API Gateway" as APIGW
+  component "Catalogue Service" as CatalogueService
+  component "Order Service" as OrderService
+  component "Payment Service" as PaymentService
+  component "Notification Service" as NotificationService
+  
+  database "Catalogue DB" as CatalogueDB
+  database "Order DB" as OrderDB
+  component "External Payment Gateway" as PaymentGateway
+  queue "Messaging Queue" as MsgQueue
+
+  interface "HTTP API" as HTTP
+  interface "gRPC API" as gRPC
+  interface "Messaging Protocol" as MsgProtocol
+
+  WebApp --> HTTP
+  MobileApp --> HTTP
+  HTTP --> APIGW
+
+  APIGW --> gRPC : "Service calls"
+  gRPC --> CatalogueService
+  gRPC --> OrderService
+  gRPC --> PaymentService
+  gRPC --> NotificationService
+
+  CatalogueService --> CatalogueDB : "Stores product data"
+  OrderService --> OrderDB : "Stores order data"
+  PaymentService --> PaymentGateway : "Processes payments"
+  NotificationService --> MsgProtocol
+  MsgProtocol --> MsgQueue : "Publishes notifications"
+}
+@enduml
+
+
+
+Explications
+1. Composants principaux
+WebApp : L'interface utilisateur web permettant aux clients d'interagir avec le système.
+MobileApp : L'application mobile pour accéder au système depuis un smartphone.
+API Gateway : Point d'entrée unique pour les clients (web et mobile) pour simplifier les appels API et appliquer les politiques de sécurité.
+CatalogueService : Service responsable de la gestion des produits (ajout, modification, suppression, et récupération des informations sur les produits).
+OrderService : Service gérant la création, la mise à jour et le suivi des commandes.
+PaymentService : Service qui gère les paiements des commandes via une intégration avec un service de paiement externe.
+NotificationService : Service chargé d'envoyer des notifications aux utilisateurs concernant leurs commandes et autres événements.
+2. Relations entre composants
+Les clients (WebApp et MobileApp) interagissent avec le système via l’API Gateway.
+L'API Gateway redirige les requêtes vers les différents services backend (Catalogue, Commandes, Paiement, Notifications).
+Les services interagissent avec des bases de données spécifiques ou des services externes :
+CatalogueService accède à une base de données des produits.
+OrderService gère les données des commandes dans une base dédiée.
+PaymentService utilise un service tiers pour traiter les paiements.
+NotificationService publie des messages dans une file de messages (queue) pour gérer l'envoi asynchrone de notifications.
+3. Composants externes
+Database : Chaque service accède à une base de données spécifique (Catalogue DB et Order DB) pour gérer ses propres données.
+External Payment Gateway : Service externe pour traiter les paiements des clients.
+Messaging Queue : File de messages pour permettre au NotificationService de gérer les notifications de manière asynchrone.

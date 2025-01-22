@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kKmX1C3I8D+nLw267BExetl1f6wSH1uPE09jPZt52FA=",
+  "Source": "SagaPattern.InventoryService",
+  "BasePath": "_content/SagaPattern.InventoryService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

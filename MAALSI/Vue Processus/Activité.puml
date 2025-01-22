@@ -1,0 +1,58 @@
+@startuml
+start
+
+:Client parcourt le catalogue;
+:Client ajoute un produit au panier;
+
+if (Panier valide ?) then (Oui)
+  :Client passe une commande;
+  :Vérifier disponibilité des produits;
+  if (Produits disponibles ?) then (Oui)
+    :Initier le paiement;
+    if (Paiement validé ?) then (Oui)
+      :Créer la commande;
+      :Envoyer notification "Commande confirmée";
+      :Envoyer notification "Commande en préparation";
+      :Mettre à jour le statut de la commande;
+      :Client consulte le statut;
+    else (Non)
+      :Annuler la commande;
+      :Envoyer notification "Paiement échoué";
+    endif
+  else (Non)
+    :Annuler la commande;
+    :Envoyer notification "Produits indisponibles";
+  endif
+else (Non)
+  :Afficher erreur sur le panier;
+endif
+
+stop
+@enduml
+
+Explications
+1. Déroulement des activités
+Début du workflow :
+
+Le client parcourt le catalogue pour consulter les produits disponibles.
+Il ajoute un ou plusieurs produits à son panier.
+Validation du panier :
+
+Si le panier est valide (quantités correctes, produits disponibles), le client peut passer une commande.
+Sinon, une erreur est affichée pour corriger le panier.
+Vérification des produits :
+
+Le système vérifie si les produits dans le panier sont disponibles.
+Si un ou plusieurs produits sont indisponibles, la commande est annulée et une notification est envoyée au client.
+Paiement :
+
+Le système initie un paiement via le service de paiement.
+Si le paiement est validé, la commande est créée et des notifications sont envoyées (commande confirmée et en préparation).
+Si le paiement échoue, la commande est annulée et une notification est envoyée.
+Mise à jour et consultation :
+
+Une fois la commande validée, le statut est mis à jour dans le système.
+Le client peut consulter le statut de sa commande à tout moment.
+Fin du workflow :
+
+Le processus se termine lorsque toutes les étapes sont terminées ou lorsqu'une erreur majeure empêche la commande de continuer.

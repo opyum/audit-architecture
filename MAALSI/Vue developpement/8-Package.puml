@@ -1,0 +1,71 @@
+@startuml
+package "E-Commerce Application" {
+  
+  package "UI" {
+    [WebApp]
+    [MobileApp]
+  }
+
+  package "Application Layer" {
+    [API Gateway]
+  }
+
+  package "Domain Layer" {
+    [CatalogueService]
+    [OrderService]
+    [PaymentService]
+    [NotificationService]
+  }
+
+  package "Infrastructure Layer" {
+    [Database]
+    [External Payment Gateway]
+    [Messaging Queue]
+  }
+
+  [WebApp] --> [API Gateway]
+  [MobileApp] --> [API Gateway]
+
+  [API Gateway] --> [CatalogueService]
+  [API Gateway] --> [OrderService]
+  [API Gateway] --> [PaymentService]
+  [API Gateway] --> [NotificationService]
+
+  [CatalogueService] --> [Database] : Catalogue DB
+  [OrderService] --> [Database] : Order DB
+  [PaymentService] --> [External Payment Gateway]
+  [NotificationService] --> [Messaging Queue]
+}
+@enduml
+
+Explications
+1. Organisation en packages
+UI (Interface utilisateur) :
+
+Contient les applications cliente :
+WebApp : L'application web utilisée sur les navigateurs.
+MobileApp : L'application mobile pour les appareils mobiles.
+Ces éléments sont le point de contact principal avec les utilisateurs.
+Application Layer :
+
+Contient l'API Gateway, qui agit comme point d'entrée unique pour toutes les requêtes des clients et redirige celles-ci vers les services backend appropriés.
+Domain Layer :
+
+Comprend les services principaux qui implémentent la logique métier de l'application :
+CatalogueService : Gère les informations sur les produits.
+OrderService : Gère les commandes.
+PaymentService : Gère les paiements des commandes.
+NotificationService : Envoie des notifications aux utilisateurs.
+Infrastructure Layer :
+
+Regroupe les dépendances externes et les services nécessaires au fonctionnement :
+Database : Contient les bases de données utilisées par les services.
+External Payment Gateway : Service tiers pour la gestion des paiements.
+Messaging Queue : File d'attente utilisée pour gérer les notifications de manière asynchrone.
+2. Relations entre les packages
+UI dépend de Application Layer : Les applications cliente (WebApp et MobileApp) envoient leurs requêtes à l'API Gateway.
+Application Layer dépend de Domain Layer : L'API Gateway appelle les services métier pour exécuter les actions nécessaires.
+Domain Layer dépend de Infrastructure Layer :
+Les services métier interagissent avec les bases de données (Catalogue DB, Order DB).
+Le PaymentService utilise une passerelle de paiement externe.
+Le NotificationService publie des messages dans une file d'attente.

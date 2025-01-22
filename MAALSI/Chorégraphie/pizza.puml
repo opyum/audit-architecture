@@ -1,0 +1,23 @@
+@startuml
+skinparam packageStyle rectangle
+skinparam backgroundColor #F3F4F5
+skinparam borderColor #333333
+skinparam arrowColor #333333
+
+package "Système de Commande en Ligne" {
+
+  package "Service de Commande" as ServiceCommande 
+
+  package "Service de Paiement" as ServicePaiement 
+
+  package "Service de Cuisine" as ServiceCuisine 
+
+  package "Service de Livraison" as ServiceLivraison 
+}
+
+ServiceCommande -down-> ServicePaiement : Envoie CommandeReçue
+ServicePaiement -down-> ServiceCuisine : Envoie PaiementValidé
+ServicePaiement -down-> ServiceCommande : Notifie PaiementRefusé
+ServiceCuisine -down-> ServiceLivraison : Envoie CommandePrête
+ServiceLivraison -up-> ServiceCommande : Notifie Livraison
+@enduml

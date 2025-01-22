@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RpjlezlP4fiXpvntRNKgFcVXe83KQFqhP+zkAJYoTz4=",
+  "Source": "SagaPattern.ApiService",
+  "BasePath": "_content/SagaPattern.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
