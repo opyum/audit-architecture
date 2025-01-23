@@ -1,21 +1,16 @@
 using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.AddServiceDefaults();
-builder.Services.AddProblemDetails();
+
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
-var app = builder.Build();
-
 builder.Services.AddMassTransit(x =>
 {
-    // Pour le PaymentService
-
-    // Pour l'InventoryService
+    // Pour l'OrderService
     x.AddConsumer<OrderCreatedEventConsumer>();
-
+    x.AddConsumer<InventoryUpdatedEventConsumer>();
 
     x.UsingRabbitMq((context, cfg) =>
     {
@@ -29,6 +24,7 @@ builder.Services.AddMassTransit(x =>
         cfg.ConfigureEndpoints(context);
     });
 });
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
